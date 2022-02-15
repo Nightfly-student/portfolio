@@ -152,7 +152,7 @@ export default function PortfolioCard() {
   ]
   const [selectedBtn, setSelectedBtn] = React.useState(1);
   return (
-    <div style={{ padding: 20 }}>
+    <div>
       <Grid spacing={2} container justifyContent="center">
         <Grid item md={12} sm={12} xs={12}>
           <ButtonGroup
@@ -192,7 +192,7 @@ export default function PortfolioCard() {
         </Grid>
         {selectedBtn === 1 &&
           sites.map((site) => (
-            <Grid item md={4} lg={4} sm={12} xs={12}>
+            <Grid item md={4} lg={4} sm={12} xs={12} style={{ padding: 20 }}>
               <Card style={{ background: "#1c1c1c", height: "100%" }}>
                 <CardMedia component="img" image={site.image}></CardMedia>
                 <CardContent style={{ color: "white" }}>

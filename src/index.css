@@ -134,6 +134,7 @@ p {
 }
 .about {
   text-align: left;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 .about p {
@@ -190,6 +191,17 @@ h1 {
   .intro {
     background-image: none!important;
   }
+  .img-center {
+    text-align: center;
+  }
+  .col-2 {
+    flex: 1 1 100%
+  }
+}
+@media only screen and (max-width: 800px) {
+  .nature {
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .skills p, .hobbies p, .intro p, .about p {
@@ -216,9 +228,6 @@ h1 {
   }
   nav ul, .hobbies p, .hobbies h2 {
     padding: 0;
-  }
-  .nature {
-    display: none;
   }
   .intro h2 {
     width: 100%;

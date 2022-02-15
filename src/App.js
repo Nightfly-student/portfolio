@@ -20,11 +20,6 @@ function App() {
               Portfolio<span class="void">()</span>
             </a>
           </li>
-          <li>
-            <a href="#contact">
-              Contact<span class="void">()</span>
-            </a>
-          </li>
         </ul>
       </nav>
         <main>
@@ -97,7 +92,7 @@ function App() {
           <Container maxWidth="lg">
             <div class="about" id="about">
               <div className="row center">
-                <div className="col-1">
+                <div className="col-1 img-center">
                   <img className="nature" src="/images/nature.jpg"></img>
                 </div>
                 <div className="col-1">
@@ -171,7 +166,7 @@ function App() {
               </h1>
               <hr />
               <div className="row center">
-                <div className="col-1">
+                <div className="col-1 img-center">
                   <img className="nature" src="/images/relaxing.jpg"></img>
                 </div>
                 <div className="col-1">
