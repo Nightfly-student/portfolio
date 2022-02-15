@@ -1,0 +1,226 @@
+@font-face {
+  font-family: covesBold;
+  src: url("fonts/Coves\ Bold.otf");
+}
+html {
+  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color:white;
+  scroll-behavior: smooth;
+}
+body {
+
+  font-size: 1.6rem;
+  font-family: covesBold;
+  font-weight: 500;
+  background: #121212;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  height: 100%;
+}
+main {
+  height: 100%;
+}
+hr {
+  color: rgb(88, 202, 240);
+  width: 50px;
+}
+nav {
+  display: flex;
+  justify-content: right;
+  background: rgb(17, 17, 17);
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  padding: 10px;
+  font-size: 2rem;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+h1 {
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 2rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+.row.center {
+  justify-content: center;
+}
+.col-1 {
+  flex: 1 1 35rem;
+}
+.col-2 {
+  flex: 1 1 45rem;
+}
+.nature {
+  width: 60%;
+  border-radius: 40%;
+}
+.me {
+  width: 700px;
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -180px;
+}
+.void {
+  color: rgb(88, 202, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue {
+  color: rgb(88, 202, 240);
+}
+.bottom {
+  margin-top: 100px;
+  text-align: center;
+}
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.icon:hover {
+  color: rgb(88, 202, 240);
+}
+.type {
+  font-size: 5rem;
+  width: 70%;
+  margin: auto;
+}
+.Typewriter {
+  width: 70%;
+  font-size: 5rem;
+  margin: auto;
+}
+.intro {
+  text-align: left;
+  background-color: rgb(17, 17, 17)!important;
+  padding: 30px;
+}
+.intro h2 {
+  width: 70%;
+  margin: auto;
+}
+.intro p {
+  width: 70%;
+  padding-top: 10px;
+  margin: auto;
+  line-height: 1.4;
+}
+.introIcon {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+.int {
+  padding: 10px;
+}
+.about {
+  text-align: left;
+  padding-bottom: 100px;
+}
+.about p {
+  width: 70%;
+  line-height: 1.4;
+}
+.about ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+}
+.about ul li {
+  padding-top: 20px;
+  width: 30%;
+}
+.about ul li span {
+  display: inline-block;
+  float: right;
+  text-align: left;
+  width: 100px;
+}
+.hobbies {
+  text-align: left;
+  padding-bottom: 100px;
+}
+.hobbies p {
+  line-height: 1.4;
+  width: 70%;
+  padding: 10px;
+}
+.hobbies h2 {
+  padding: 10px
+}
+h1 {
+  text-align: center;
+}
+.skills {
+  text-align: left;
+  padding-bottom: 100px;
+}
+.skills p {
+  width: 70%;
+  line-height: 1.4;
+}
+.MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MuiButton-outlinedPrimary {
+  color: rgb(88, 202, 240)!important;
+}
+@media only screen and (max-width: 1200px) {
+  .intro {
+    background-image: none!important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skills p, .hobbies p, .intro p, .about p {
+    width: 100%;
+  }
+  .type {
+    font-size: 25px;
+  }
+  .Typewriter {
+    width: 100%;
+  }
+  .col-1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .introIcon {
+    width: 100%
+  }
+  .about ul li {
+    width: 50%;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav ul, .hobbies p, .hobbies h2 {
+    padding: 0;
+  }
+  .nature {
+    display: none;
+  }
+  .intro h2 {
+    width: 100%;
+  }
+}
