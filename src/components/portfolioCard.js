@@ -36,19 +36,37 @@ export default function PortfolioCard() {
 
   const sites = [
     {
+      url: "https://nightsmurf.com/",
+      image:
+        "https://res.cloudinary.com/droomsocial/image/upload/v1648658044/nightsmurf-com-1024x768desktop-027c94_hhuviv.png",
+      desc: "Updated Webshop, selling smurf accounts for League Of Legends and choose your skin with a home made API",
+      program: "VueJS, ExpressJS, MongoDB",
+      when: "26/03/2022 to Now",
+      finished: "Finished",
+    },
+    {
+      url: "https://leaguer-vue.herokuapp.com/",
+      image:
+        "https://res.cloudinary.com/droomsocial/image/upload/v1648658083/leaguer-vue-herokuapp-com-1024x768desktop-955a74_n6uzih.png",
+      desc: "League of Legends search summoners, created with the offical riot api",
+      program: "VueJS, ExpressJS, MongoDB",
+      when: "01/03/2022 to 05/03/2022",
+      finished: "Finished",
+    },
+    {
       url: "https://www.droomsocial.com",
       image:
         "https://res.cloudinary.com/droomsocial/image/upload/v1643188789/serve.php_usw21z.png",
       desc: "Free Dream Journal app, with a social aspect to it, also free data to learn more about your dreams",
       program: "NextJS, Material UI, MongoDB",
-      when: "01/01/2022 to Now",
-      finished: "Alpha Version",
+      when: "01/01/2022 to 21/03/2022",
+      finished: "Finished",
     },
     {
       url: "https://www.nightsmurf.com",
       image:
         "https://res.cloudinary.com/droomsocial/image/upload/v1643188790/nightsmurf_obkpkx.png",
-      desc: "Webshop, selling smurf accounts for League Of Legends and choose your skin with a home made API",
+      desc: "Old Webshop, selling smurf accounts for League Of Legends and choose your skin with a home made API",
       program: "React, ExpressJS, Redux, MongoDB",
       when: "12/08/2021 to 24/10/2021",
       finished: "Finished",
